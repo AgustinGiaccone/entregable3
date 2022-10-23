@@ -1,7 +1,7 @@
 const express = require('express')
 const Contenedor = require('./Contenedor.js')
 const server = express()
-const port = 8080
+const port = process.env.PORT || 80
 
 const vehiculos = new Contenedor('productos.txt')
 
