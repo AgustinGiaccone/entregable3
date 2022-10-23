@@ -10,7 +10,7 @@ const servidor = server.listen(port, ()=>{
 })
 
 server.get('/', (req,res)=>{
-    res.send('inicio del servidor express')
+    res.send('<h1>Bienvenido al entregable numero 3 de backend</h1><p>prueba</p>')
 })
 
 server.get('/productos', async (req,res)=>{
