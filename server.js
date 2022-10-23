@@ -10,7 +10,7 @@ const servidor = server.listen(port, ()=>{
 })
 
 server.get('/', (req,res)=>{
-    res.send('<h1>Bienvenido al entregable numero 3 de backend</h1><p>prueba</p>')
+    res.send('<h1>Bienvenido al entregable numero 3 de backend</h1><h2>Para visualisar todos los productos:</h2> <a>https://entregable3-giaccone.herokuapp.com/productos</a><br><h2>Para visualisar un producto aleatorio:</h2> <a>https://entregable3-giaccone.herokuapp.com/productosRandom</a>')
 })
 
 server.get('/productos', async (req,res)=>{
